@@ -19,7 +19,7 @@ constraints drive creativity!
 # Goals
 
 - Inspire you to create your own analog displays
-- Convice you it's _**easy**_!
+- Convince you it's _**easy**_!
 - Give you a starting point
 
 ---
@@ -27,7 +27,8 @@ constraints drive creativity!
 # Agenda
 
 - hardware platforms overview/intro
-- cover 5 analog metric display projects
+- cover analog metric display projects
+- next steps
 
 ---
 
@@ -39,9 +40,9 @@ constraints drive creativity!
 
 ---
 
-## What is a Microcontroller?
+## Let's talk Microcontrollers
 
-![](http://www.atmel.com/Images/banner_tinyavr.jpg)
+![](images/microcontrollers.jpg)
 
 ---
 
@@ -86,7 +87,11 @@ void loop() {
 - Can use C/C++
 - Lots of examples, libraries
 
---- 
+---
+
+![fit](images/arduino-examples.jpg)
+
+---
 
 # Communication
 
@@ -221,7 +226,7 @@ $ curl https://api.spark.io/v1/devices/$DEVICE/brew \
 >   -d access_token=$TOKEN \
 >   -d params=coffee
 {
-  "id": "50ff6b065067545609340487",
+  "id": "7adca5b8743743d0b4d257d0",
   "name": "blinky",
   "last_app": null,
   "connected": true,
@@ -271,7 +276,7 @@ while True:
 
 ---
 
-![](images/meters2.jpeg)
+![](images/meters-animated.gif)
 
 ^Analog meters
 - great, classic look!
@@ -307,6 +312,11 @@ arduino running 'StandardFirmata' example sketch
 cw call truncated, otherwise full code
 USB serial device
 digital pin 5, PWM mode
+
+---
+
+![fit](images/pwm.png)
+
 
 ---
 
@@ -356,17 +366,6 @@ for t, recs in records.items():
 
 ---
 
-![](images/event-counters.jpeg)
-
-^ Event Counters
-electromechanical counter
-only goes up!  no reset
-not super useful for display...
-BUT, makes great loud clicking noise when advancing -- you HEAR something is happening
-think: train station
-
----
-
 ![](images/exception-printer2.jpeg)
 
 ^ Exception printer
@@ -388,7 +387,26 @@ mostly a novelty, but, fun to play
 
 ---
 
+![autoplay](videos/xylo-playing.MP4)
+
+---
+
 ![](images/xylo-piano.jpg)
+
+---
+
+![](images/event-counters.jpeg)
+
+^ Event Counters
+electromechanical counter
+only goes up!  no reset
+not super useful for display...
+BUT, makes great loud clicking noise when advancing -- you HEAR something is happening
+think: train station
+
+---
+
+## future work?
 
 ---
 
@@ -403,9 +421,52 @@ wanted to show breakdown by as group
 
 ---
 
-## future work?
-
 ![](images/other/etch-a-sketch.jpg)
+
+---
+
+# Next Steps
+
+1. Get an Arduino
+2. Blink an LED
+
+---
+
+# Shopping List
+
+![](images/other/breadboard.jpg)
+
+1. arduino/spark core/whatever
+2. breadboard, jumper wires
+4. LEDs! , meters , buttons
+5. sensors
+6. assorted resistors
+7. multimeter?
+
+---
+
+# Outfitters
+
+adafruit
+sparkfun
+evil mad scientist
+mouser
+
+---
+
+![fit](images/soldering.png)
+
+---
+
+
+# PCBs
+
+### software: gEDA, KiCad, eagle
+### manufacture: OSH Park
+
+
+![](images/pcb.png)
+
 
 ---
 
